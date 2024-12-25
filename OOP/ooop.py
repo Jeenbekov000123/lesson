@@ -54,30 +54,30 @@ class Gamepers:
 
 
 
-    def get_name(self):
-        return self.__name
-
-    def get_age(self):
-        return self.__age
-
-    def set_pol(self, new_pol):
-           self.__pol = new_pol
-    def set_rost(self, new_rost):
-        self.__rost = new_rost
-
-    def start(self):
-        print(f'{self.__name}  pers is startig')
-    def move(self):
-        print(f"{self.__age}  pers is moving")
-    def stop(self):
-        print(f"{self.__pol}  pers is stoping")
-
-    def display_info(self):
-         print(f"name: {self.__name}\n"
-               f'age: {self.__age}\n'
-               f'pol:  {self.__pol}\n'
-               )
-
-pers = Gamepers('Martis','18', 'male','75','172')
-print(pers.get_age())
-pers.display_info()
+#     def get_name(self):
+#         return self.__name
+#
+#     def get_age(self):
+#         return self.__age
+#
+#     def set_pol(self, new_pol):
+#            self.__pol = new_pol
+#     def set_rost(self, new_rost):
+#         self.__rost = new_rost
+#
+#     def start(self):
+#         print(f'{self.__name}  pers is startig')
+#     def move(self):
+#         print(f"{self.__age}  pers is moving")
+#     def stop(self):
+#         print(f"{self.__pol}  pers is stoping")
+#
+#     def display_info(self):
+#          print(f"name: {self.__name}\n"
+#                f'age: {self.__age}\n'
+#                f'pol:  {self.__pol}\n'
+#                )
+#
+# pers = Gamepers('Martis','18', 'male','75','172')
+# print(pers.get_age())
+# pers.display_info()

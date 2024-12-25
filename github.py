@@ -47,3 +47,7 @@
 # pers = Gamepers('Martis','18', 'male','75','172')
 # print(pers.get_age())
 # pers.display_info()
+
+
+
+# print ('hello')
